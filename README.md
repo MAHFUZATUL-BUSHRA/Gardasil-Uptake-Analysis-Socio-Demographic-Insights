@@ -17,7 +17,7 @@ Is there a relationship between the type of insurance held by patients and the o
 
 ### Tools Used:
 * R for data preparation and analysis.
-* Microsoft Excel for custom visualizations.
+
  
 ### Dataset Overview
 
