@@ -61,32 +61,37 @@ The dataset includes records of young female patients who began the HPV vaccine 
 
  2.Inconsistencies in Completion Data:
     A discrepancy was found where 68 patients completed all three vaccine doses but did not meet the 12-month completion criteria. This suggests these doses were completed outside the recommended timeframe.
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/01.png) ![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/02.png)
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/01.png" alt="Image 01" width="400"> 
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/02.png" alt="Image 02" width="400">
 
 ##### A total of 38% of patients completed the three-dose Gardasil vaccine series; however, only 33.2% completed the regimen within the recommended 12-month period.
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/2.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/3.png)
-
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/2.png" alt="p" width="400">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Vaccine-Completion-Analysis/blob/main/Pictures/3.png" alt="p" width="400">
  3.Outlier in Age Data:
     One record (Patient ID: 951) shows an age of 34, exceeding the recommended age range of 9-26 years for the Gardasil vaccine. This may be a data entry error or an exception in the study, but the record was retained for analysis.
     
 ### Exploratory Data Analysis [EDA]
 #### Distribution of the Socio-demographic Characteristics of the Patients
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/summary.png)
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/summary.png" alt="Summary" width="250" height="250">
+
+
 #### Association of the Completion Rate of the 3-Doses Regimen with various Socio-demographic Variables
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/characteristics.png)
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/characteristics.png" alt="Characteristics" width="250" height="250">
+
+
 #### Bivariate Data Analysis & Hypothesis Testing
 #### Summary of the variables
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/4.png" alt="p" width="250">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
 
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/4.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
 
 
 #### Proportion test: 2-sample test for equality of proportions with continuity correction
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
+
 #### Chi-square Test of Homogeneity among the Completion Rate of different Insurance Types
        InsuranceType          No         Yes
       Medical Assistance 220 (183.7)   55 (91.3)
@@ -98,17 +103,16 @@ The dataset includes records of young female patients who began the HPV vaccine 
   P-value = 7.41e-07
 
 #### Difference in the Completion Rate in the Presence of Location
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
-#### Odds Ratios
-
-#### Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/location.png)
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/insurrance.png)
-#### Multiple Logistic Regression Model
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/logistic.png)
-#### Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/odds.png)
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
+<h4>Odds Ratios</h4>
+<h4>Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months</h4>
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png" alt="p" width="250">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/location.png" alt="p" width="250">
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/insurrance.png" alt="p" width="250">
+<h4>Multiple Logistic Regression Model</h4>
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/logistic.png" alt="p" width="250">
+<h4>Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months</h4>
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/odds.png" alt="p" width="250">
 
 (355 patients out of 963 patients living in the suburban area completed the 3-shots)/ 
 (608 patients out of 963 patients living in the suburban area didn’t complete the 3-shots))/ 
@@ -136,7 +140,8 @@ The Chance of Suburban Patients completing the 3-doses regimen of Gardasil Vacci
         degrees of freedom =  8 
         p-value =  0.40288
 #### Completion Rate Distribution with 2-Doses
-![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/2%20doses.png)
+<img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/2%20doses.png" alt="p" width="250">
+
 ### Highlights:
 * Insights into racial disparities and urban-suburban differences in vaccine uptake.
 * Discussion of the implications of switching to a two-dose regimen.
