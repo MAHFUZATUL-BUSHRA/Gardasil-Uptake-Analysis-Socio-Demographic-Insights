@@ -73,24 +73,70 @@ The dataset includes records of young female patients who began the HPV vaccine 
 ### Exploratory Data Analysis [EDA]
 #### Distribution of the Socio-demographic Characteristics of the Patients
 ![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/summary.png)
-![p]
+#### Association of the Completion Rate of the 3-Doses Regimen with various Socio-demographic Variables
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/characteristics.png)
 #### Bivariate Data Analysis & Hypothesis Testing
-![p]
 #### Summary of the variables
-![p]
-#### Proportion test: 2-sample test for equality of proportions with continuity correction
-![p]
-#### Difference in the Completion Rate in the Presence of Location
-![p]
-#### Odds Ratios
-![p]
-#### Multiple Logistic Regression Model
-![p]
-#### Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months
-![p]
-#### Completion Rate Distribution with 2-Doses
-![p]
 
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/4.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+
+
+#### Proportion test: 2-sample test for equality of proportions with continuity correction
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+#### Chi-square Test of Homogeneity among the Completion Rate of different Insurance Types
+       InsuranceType          No         Yes
+      Medical Assistance 220 (183.7)   55 (91.3)
+         Private Payer   470 (483)   253 (240)
+        Hospital-based   45 (56.1)   39 (27.9)
+              Military 209 (221.1) 122 (109.9)
+ Chi-squared = 31.283,
+ Degrees of Freedom = 3,
+  P-value = 7.41e-07
+
+#### Difference in the Completion Rate in the Presence of Location
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+#### Odds Ratios
+
+#### Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/5.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/location.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/insurrance.png)
+#### Multiple Logistic Regression Model
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/logistic.png)
+#### Contingency Table between Shots Taken & Completion of 3-Shots within 12-Months
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/odds.png)
+
+(355 patients out of 963 patients living in the suburban area completed the 3-shots)/ 
+(608 patients out of 963 patients living in the suburban area didn’t complete the 3-shots))/ 
+((114 patients out of 450 patients living in the urban area completed the 3-shots)/ 
+(336 patients out of 450 patients living in the urban area didn’t complete the 3-shots))
+= (355/608)/ (114/336)
+= 1.72
+
+The Chance of Suburban Patients completing the 3-doses regimen of Gardasil Vaccine is 1.72 times higher than that of patients from Urban Areas.
+#### Hosmer-Lemeshow Goodness-of-Fit Test
+## 
+     Group Size Observed Expected
+        1  133       20 19.47033
+        2  110       28 22.52485
+        3  123       29 30.62004
+        4  143       45 38.68650
+        5  132       31 41.65828
+        6  160       51 55.24058
+        7  246       89 90.83540
+        8  142       60 58.91820
+        9  180       90 86.89509
+        10  44       26 24.15073
+        
+        Statistic =  8.31968 
+        degrees of freedom =  8 
+        p-value =  0.40288
+#### Completion Rate Distribution with 2-Doses
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/2%20doses.png)
 ### Highlights:
 * Insights into racial disparities and urban-suburban differences in vaccine uptake.
 * Discussion of the implications of switching to a two-dose regimen.
