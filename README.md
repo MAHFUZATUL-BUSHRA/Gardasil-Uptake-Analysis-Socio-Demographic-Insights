@@ -61,13 +61,18 @@ The dataset includes records of young female patients who began the HPV vaccine 
 
  2.Inconsistencies in Completion Data:
     A discrepancy was found where 68 patients completed all three vaccine doses but did not meet the 12-month completion criteria. This suggests these doses were completed outside the recommended timeframe.
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/01.png) ![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/02.png)
+
+##### A total of 38% of patients completed the three-dose Gardasil vaccine series; however, only 33.2% completed the regimen within the recommended 12-month period.
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/2.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/Pictures/3.png)
 
  3.Outlier in Age Data:
     One record (Patient ID: 951) shows an age of 34, exceeding the recommended age range of 9-26 years for the Gardasil vaccine. This may be a data entry error or an exception in the study, but the record was retained for analysis.
     
 ### Exploratory Data Analysis [EDA]
-![p]
 #### Distribution of the Socio-demographic Characteristics of the Patients
+![p](https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/summary.png)
 ![p]
 #### Bivariate Data Analysis & Hypothesis Testing
 ![p]
