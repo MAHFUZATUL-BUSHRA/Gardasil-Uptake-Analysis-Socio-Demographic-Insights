@@ -142,6 +142,8 @@ The Chance of Suburban Patients completing the 3-doses regimen of Gardasil Vacci
 #### Completion Rate Distribution with 2-Doses
 <img src="https://github.com/MAHFUZATUL-BUSHRA/Gardasil-Uptake-Analysis-Socio-Demographic-Insights/blob/main/2%20doses.png" alt="p" width="250">
 
+### Gardasil Vaccine Completion and Impact
+The Gardasil vaccine is effective in preventing HPV-related cancers and diseases, yet acceptance and timely completion of the recommended 3-dose regimen remain low. In the study, only 33.2% of participants completed all doses within the recommended 12-month period, while 68 participants completed the series beyond this timeframe. Socio-demographic factors were analyzed, revealing higher completion rates among specific groups.
 ### Highlights:
 * Insights into racial disparities and urban-suburban differences in vaccine uptake.
 * Discussion of the implications of switching to a two-dose regimen.
